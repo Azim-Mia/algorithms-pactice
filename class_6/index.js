@@ -13,3 +13,5 @@ let nameArray = ['azim', 'karim','azim','millon','piyas','azim'];
 console.log(uniqucName(nameArray));
 //time complexity big 0(n2)
 // space complexity big o(n)
+//Note : big o(n) holo input barle time barbe
+// Note: (n2) ai nutation time onek barbe
