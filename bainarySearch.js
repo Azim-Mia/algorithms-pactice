@@ -5,9 +5,9 @@ const binarySearch = (arr, value) => {
     let mid = Math.floor((start + end) / 2); // use floor for consistency
     if (arr[mid] === value) return mid;
     if (value > arr[mid]) {
-      start = mid + 1; // fix: use mid, not arr[mid]
+      start = mid + 1; // fix: use mid
     } else {
-      end = mid - 1;   // fix: use mid, not arr[mid]
+      end = mid - 1;   // fix: use mid
     }
   }
   return -1;
