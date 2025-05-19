@@ -24,5 +24,6 @@ let arr = [];
 arr.push(Math.floor(n))
   }
 console.log(arr)
-}
+
+
 logarithmTwo(10)
